@@ -1,4 +1,4 @@
-import List from './List';
+import List from './List_how-id-really-do-it';
 
 function App() {
 
