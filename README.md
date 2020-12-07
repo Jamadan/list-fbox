@@ -1,8 +1,10 @@
-# Fusebox games code test
+# JAMADAN Fusebox games code test
 
-We have a list of 1000 items, in the live version these blocks often need to update causing a mass redraw, even though only a handful are visible.
+Spent an hour looking at this and came up with the following. Probably wouldn't re-invent the wheel based on what's already available.
 
-Can you rebuild the list component (`List.js`) to display only the visible items (< 10) while preserving the scroll functionality. This should work with a 100,000 item list.
+Currently my components still render an empty div per block with the right height to account for not having to set scroll everytime.
+
+I could have done removed all these and then calculated and called setScroll had I more time, but only if it had it would yield performance upgrade.
 
 <br >
 <br >
