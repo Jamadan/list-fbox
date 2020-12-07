@@ -15,7 +15,7 @@ function App() {
 		gridTemplateColumns: '300px auto',
 		height: '100vh'
 	}
-	
+
 	return (
 		<div style={style}>
 			<List data={sampleData} />
